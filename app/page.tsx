@@ -137,7 +137,7 @@ export default function Home() {
       <footer className="bg-navy-blue text-white py-8">
         <div className="container mx-auto px-4">
           <div className="flex sm:flex-col md:flex-row justify-between gap-8">
-            <a href="https://linkedin.com" className="flex items-center gap-2 text-xs">
+            <a href="https://www.linkedin.com/company/k-m-professional-solutions" className="flex items-center gap-2 text-xs">
               <SiLinkedin size={24} />
               K.M. PROFESSIONAL SOLUTIONS
             </a>

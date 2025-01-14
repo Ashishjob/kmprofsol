@@ -51,7 +51,6 @@ export default function ContactPage() {
 
   return (
     <main className={`min-h-screen bg-navy-blue ${inter.className}`}>
-      {/* Background Pattern */}
       <div className="absolute inset-0 bg-[url('/bg.png')] bg-cover bg-center opacity-5"></div>
       
       <div className="relative container mx-auto px-4 py-16">
@@ -64,7 +63,6 @@ export default function ContactPage() {
         </Link>
 
         <div className="grid lg:grid-cols-2 gap-16 items-start max-w-6xl mx-auto">
-          {/* Left Column - Contact Info */}
           <div>
             <div className="mb-12">
               <h1 className="text-8xl font-serif text-white mb-4">KM</h1>
@@ -103,7 +101,6 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* Right Column - Contact Form */}
           <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 lg:p-12">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
